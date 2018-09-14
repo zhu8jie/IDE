@@ -1,0 +1,133 @@
+PhpStorm官网你可以直接去下载免费试用版本，在这里我们不过多说了。直接教大家怎么安装破解版的。
+1.目前这个破解方法只对2017.1.4版本及以前的版本起作用，所以你要下载这之前的版本。足够使用了。当然你也可以下载最新版本自己找破解方法或者淘宝买也ok。
+点击下载：PhpStorm-2017.1.4.exe
+密码：vncr
+2.下载安装之后，打开：F:\PhpStorm 2017.1.4\bin目录（安装位置可能不一样呦~）
+下面有两个文件：phpstorm.exe.vmoptions，phpstorm64.exe.vmoptions
+打开两个文件，分别在末尾添加如下代码：
+
+-javaagent:F:\PhpStorm 2017.1.4\lib\JetbrainsCrack-2.6.2.jar
+
+    1
+
+点击下载：JetbrainsCrack-2.6.2.jar
+密码：c4d4
+注意：此处我做一下说明。好多人一般安装激活的时候在这个地方出现了问题。首先请仔细阅读该教程哈。如果还是有问题，参考如下：
+1.第2步骤的下载安装后，打开F:\PhpStorm 2017.1.4\bin目录，该目录是你的安装目录，比如你安装在D:\phpstorm。那么该路径就是D:\phpstorm\bin目录。
+2.打开两个vmoptions文件，末尾加入代码，路径上也要和你的安装路径匹配，不要一味的粘贴我的。
+3.下载完JetbrainsCrack-2.6.2.jar包。放置的目录正好就是上个步骤末尾添加的代码中的位置。比如你的lib目录是D:\phpstorm\lib，那么你就将该jar包放在此处。
+3.现在你可点击运行phpstorm了，然后会出现一个需要你填写类似密匙代码的框，将以下代码复制进去即可。
+
+
+ThisCrackLicenseId-{??
+"licenseId":"ThisCrackLicenseId",??
+"licenseeName":"idea",??
+"assigneeName":"",??
+"assigneeEmail":"idea@163.com",??
+"licenseRestriction":"For?This?Crack,?Only?Test!?Please?support?genuine!!!",??
+"checkConcurrentUse":false,??
+"products":[??
+{"code":"II","paidUpTo":"2099-12-31"},??
+{"code":"DM","paidUpTo":"2099-12-31"},??
+{"code":"AC","paidUpTo":"2099-12-31"},??
+{"code":"RS0","paidUpTo":"2099-12-31"},??
+{"code":"WS","paidUpTo":"2099-12-31"},??
+{"code":"DPN","paidUpTo":"2099-12-31"},??
+{"code":"RC","paidUpTo":"2099-12-31"},??
+{"code":"PS","paidUpTo":"2099-12-31"},??
+{"code":"DC","paidUpTo":"2099-12-31"},??
+{"code":"RM","paidUpTo":"2099-12-31"},??
+{"code":"CL","paidUpTo":"2099-12-31"},??
+{"code":"PC","paidUpTo":"2099-12-31"}??
+],??
+"hash":"2911276/0",??
+"gracePeriodDays":7,??
+"autoProlongated":false}??
+
+
+
+注意：这个地方也做下说明。按照以上步骤安装完成成以后，运行编辑器。有以下界面，选择第二个：Activation code，将以上代码放在框中确认即可
+
+OK了，一款2099年到期的PhpStorm编辑器诞生了~~~
+
+PhpStorm 常用快捷键和配置
+
+1.配置
+设置代码及字体风格：File->Settings->Editor->Colors&Fonts->Font
+安装插件（如：tp，laravel，yii。。。）：File->Settings->Plugins
+设置自动换行：File->Settings->Editor->General->勾选 “ Use soft wrap in editor ”
+设置行号：File->Settings->Editor->General-》Appearance->勾选 “ show line numbers”
+最后记得点击应用，其他需要配置可以自行百度。
+
+2.快捷键
+  查询快捷键
+    CTRL+N   查找类
+    CTRL+SHIFT+N  查找文件，打开工程中的文件(类似于eclipse中的ctrl+shift+R)，目的是打开当前工程下任意目录的文件
+    CTRL+SHIFT+ALT+N 查 找类中的方法或变量(JS)
+    CIRL+B   找变量的来源，跳到变量申明处
+    CTRL+ALT+B  找所有的子类
+    CTRL+SHIFT+B  找变量的 类
+    CTRL+G   定位行，跳转行
+    CTRL+F   在当前窗口查找文本
+    CTRL+SHIFT+F  在指定路径查找文本
+    CTRL+R   当前窗口替换文本
+    CTRL+SHIFT+R  在指定路径替换文本
+    ALT+SHIFT+C  查找修改的文件，最近变更历史
+  自动代码
+    ALT+回车  导入包,自动修正
+    CTRL+ALT+L  格式化代码
+    CTRL+ALT+I  自动缩进
+    CTRL+ALT+O  优化导入的类和包
+    CTRL+E  最近更改的文件/代码
+    CTRL+SHIFT+SPACE 切换窗口
+    CTRL+SPACE空格  代码自动完成，代码提示,一般与输入法冲突
+    CTRL+ALT+SPACE  类 名或接口名提示（与系统冲突）
+    CTRL+P   方法参数提示，显示默认参数
+    CTRL+J   自动代码提示，自动补全
+    CTRL+ALT+T  把选中的代码放在 TRY{} IF{} ELSE{} 里
+    ALT+INSERT  生成代码(如GET,SET方法,构造函数等)
+  复制快捷方式
+    F5   复制文件/文件夹
+    CTRL+C   复制
+    CTRL+V   粘贴
+    CTRL+X   剪 切,删除行
+    CTRL+D   复制行
+    Ctrl + Y    删除行插入符号
+    CTRL+SHIFT+V  可以复制多个文本 
+  其他快捷方式
+    CTRL+Z        倒退(代码后悔)
+    CTRL+SHIFT+Z  向前
+    CTRL+H        显 示类结构图
+    Ctrl +F12      文件结构弹出
+    Ctrl+Shift+H  方法的层次结构
+    Ctrl+Alt+H    呼叫层次
+    CTRL+Q   显示代码注释
+    CTRL+W   选中代码，连续按会 有其他效果
+    Ctrl+Shift+W   减少当前选择到以前的状态
+    CTRL+B   转到声明，快速打开光标处的类或方法说明注释(CTRL + 鼠标单击 也可以)
+    CTRL+O   魔术方法
+    CTRL+/   注释//取消注释  
+    CTRL+SHIFT+/  注释/*...*/
+    CTRL+ []   光标移动到 {}[]开头或结尾位置
+    CTRL+SHIFT+[]    选中块代码，可以快速复制
+    ctrl + '-/+': 可以折叠项目中的任何代码块,包括htm中的任意nodetype=3的元素，function,或对象直接量等等。它不是选中折叠，而是自动识别折叠
+  调试
+    F8步过
+    F7步入
+    Shift + F7智能进入
+    Shift + F8步骤
+    ALT + F9运行到光标
+    Alt + F8计算表达式
+    F9恢复程序
+    Ctrl + F8切换断点
+    Ctrl + Shift + F8查看断点
+  
+    
+    
+
+
+
+
+
+
+
